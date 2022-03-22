@@ -13,14 +13,13 @@ reader.question("What would you like to calculate?", function(input){
 	mathSymbol = tokens[0];
 	num1 = Number(tokens[1]);
 	num2 = Number(tokens[2]);
-	num3 = Number(tokens[3])
 
 	if (mathSymbol === '+') {
 		console.log(num1 + num2 + num3);
 	}	else if (mathSymbol === '-') {
-			console.log(num1 - num2 - num3);
+			console.log(num1 - num2);
 	}	else if (mathSymbol === '*') {
-			console.log(num1 * num2 * num3);
+			console.log(num1 * num2);
 	}	else if (mathSymbol === '/') {
 			console.log(num1 / num2);
 	}	else if (mathSymbol === 'sqrt') {
