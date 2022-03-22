@@ -23,7 +23,7 @@ reader.question("What would you like to calculate?", function(input){
 	}	else if (mathSymbol === '/') {
 		console.log(num1 / num2);
 	}	else if (mathSymbol === 'sqrt') {
-		console.log(num1 / num1);
+		console.log(Math.sqrt(num1));
 	}	else console.log('Please enter a valid operator and number value(s).');
 	
 
